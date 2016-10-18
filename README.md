@@ -1,7 +1,10 @@
 # Starter Styles
 
-Framework-killing starter content for an application's styles directory. 
+Framework-killing starter rules for an application's styles directory. Based on
+the philosophy of functional CSS (i.e: single-responsibility class composition).
 
-Build it out as needed. 
-Use Post-CSS processing.
-Win.
+Build it out as needed.
+
+Use PostCSS for processing.
+
+Win 😎.
