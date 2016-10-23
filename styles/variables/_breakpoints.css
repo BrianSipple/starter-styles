@@ -1,0 +1,10 @@
+/**
+ * BREAKPOINTS THRESHOLDS
+ */
+:root {
+  --breakpoint-threshold--xSmall: 320px;   /* Roughly, a min-width for handsets */
+  --breakpoint-threshold--small: 480px;    /* Roughly, a max-width for handsets in landscape  */
+  --breakpoint-threshold--medium: 768px;   /* Roughly, a min-width for tablets  */
+  --breakpoint-threshold--large: 1024px;   /* Roughly, a max-width for tablets in landscape  */
+  --breakpoint-threshold--xLarge: 1440px;  /* Someone's probably got a monitor  */
+}
