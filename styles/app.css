@@ -3,7 +3,7 @@
 
 @import "./_elements.css";
 @import "./_object-patterns.css";
-/*@import "./_pages.css";*/  /* Uncomment when your app has pages! */
+/*@import "./_pages.css";*/  /* 📋 Uncomment when your app has pages! */
 @import "./_typography.css";
-/*@import "./_ui-components.css";*/  /* Uncomment when your app has components! */
+/*@import "./_ui-components.css";*/  /* 📋 Uncomment when your app has components! */
 @import "./_utilities.css";
