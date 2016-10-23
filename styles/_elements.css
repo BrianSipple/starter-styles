@@ -3,7 +3,7 @@
  *
  * These are for concerns that rarely, if ever, change, and are meant to be
  * a lighter version of something like normalize.css (https://necolas.github.io/normalize.css/)
- * ("lighter" meaning only add stuff as needed... if needed... while generally trying to compose classes 😀)
+ * ("lighter" meaning only add stuff as needed... if needed... while generally preferring class composition 😀)
  */
 
 html {
