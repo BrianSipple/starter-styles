@@ -2,8 +2,7 @@
  * Styles here directly target HTML elements -- not classes.
  *
  * These are for concerns that rarely, if ever, change, and are meant to be
- * a lighter version of something like normalize.css (https://necolas.github.io/normalize.css/)
- * ("lighter" meaning only add stuff as needed... if needed... while generally preferring class composition 😀)
+ * a lighter version of a "reset" like normalize.css (https://necolas.github.io/normalize.css/)
  */
 
 html {
@@ -22,4 +21,12 @@ ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
 }
