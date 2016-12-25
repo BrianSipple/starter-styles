@@ -1,80 +1,81 @@
 :root {
-  --theme-color__primary: hsla(180, 84%, 75%, 1.00);
+  --theme-color__primary: hsla(217, 96%, 42%, 1.00);
 
-  --theme-color__primary--lightest: color(
+
+  --theme-color__primary--lighter: color(
     var(--theme-color__primary)
     tint(50%)
   );
-  --theme-color__primary--lighter: color(
+  --theme-color__primary--light: color(
     var(--theme-color__primary)
     tint(20%)
+  );
+  --theme-color__primary--dark: color(
+    var(--theme-color__primary)
+    shade(20%)
   );
   --theme-color__primary--darker: color(
     var(--theme-color__primary)
-    shade(20%)
-  );
-  --theme-color__primary--darkest: color(
-    var(--theme-color__primary)
     shade(50%)
   );
 
 
-  --theme-color__accent-1: hsla(262, 51%, 64%, 1.00);
+  --theme-color__supporting-1: hsla(359, 66%, 42%, 1.00);
 
-  --theme-color__accent-1--lightest: color(
+  --theme-color__supporting-1--lighter: color(
+    var(--theme-color__supporting-1)
+    tint(50%)
+  );
+  --theme-color__supporting-1--light: color(
+    var(--theme-color__supporting-1)
+    tint(20%)
+  );
+  --theme-color__supporting-1--dark: color(
+    var(--theme-color__supporting-1)
+    shade(20%)
+  );
+  --theme-color__supporting-1--darker: color(
+    var(--theme-color__supporting-1)
+    shade(50%)
+  );
+
+
+  --theme-color__supporting-2: hsla(296, 29%, 55%, 1.00);
+
+  --theme-color__supporting-2--lighter: color(
+    var(--theme-color__supporting-2)
+    tint(50%)
+  );
+  --theme-color__supporting-2--light: color(
+    var(--theme-color__supporting-2)
+    tint(20%)
+  );
+  --theme-color__supporting-2--dark: color(
+    var(--theme-color__supporting-2)
+    shade(20%)
+  );
+  --theme-color__supporting-2--darker: color(
+    var(--theme-color__supporting-2)
+    shade(50%)
+  );
+
+
+  --theme-color__accent-1: hsla(149, 89%, 78%, 1.00);
+
+  --theme-color__accent-1--lighter: color(
     var(--theme-color__accent-1)
     tint(50%)
   );
-  --theme-color__accent-1--lighter: color(
+  --theme-color__accent-1--light: color(
     var(--theme-color__accent-1)
     tint(20%)
+  );
+  --theme-color__accent-1--dark: color(
+    var(--theme-color__accent-1)
+    shade(20%)
   );
   --theme-color__accent-1--darker: color(
     var(--theme-color__accent-1)
-    shade(20%)
-  );
-  --theme-color__accent-1--darkest: color(
-    var(--theme-color__accent-1)
-    shade(50%)
-  );
-
-
-  --theme-color__accent-2: hsla(53, 78%, 67%, 1.00);
-
-  --theme-color__accent-2--lightest: color(
-    var(--theme-color__accent-2)
-    tint(50%)
-  );
-  --theme-color__accent-2--lighter: color(
-    var(--theme-color__accent-2)
-    tint(20%)
-  );
-  --theme-color__accent-2--darker: color(
-    var(--theme-color__accent-2)
-    shade(20%)
-  );
-  --theme-color__accent-2--darkest: color(
-    var(--theme-color__accent-2)
-    shade(50%)
-  );
-
-
-  --theme-color__accent-3: hsla(10, 66%, 63%, 1.00);
-
-  --theme-color__accent-3--lightest: color(
-    var(--theme-color__accent-3)
-    tint(50%)
-  );
-  --theme-color__accent-3--lighter: color(
-    var(--theme-color__accent-3)
-    tint(20%)
-  );
-  --theme-color__accent-3--darker: color(
-    var(--theme-color__accent-3)
-    shade(20%)
-  );
-  --theme-color__accent-3--darkest: color(
-    var(--theme-color__accent-3)
     shade(50%)
   );
 
