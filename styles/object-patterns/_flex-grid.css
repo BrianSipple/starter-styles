@@ -77,6 +77,12 @@
 .o-flex-grid .o-grid-cell--autoSize {
   flex: none;
 }
+.o-flex-grid .o-grid-cell--autoGrow {
+  flex: 1 0 auto;
+}
+.o-flex-grid .o-grid-cell--autoShrink {
+  flex: 0 1 auto;
+}
 
 
 /* ------------ CUSTOM CELL SIZING ------------- */
